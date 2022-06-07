@@ -1,0 +1,142 @@
+#showcase {
+    height: 80vh;
+}
+
+.showcase-text h1 {
+    font-size: 1.3rem;
+    text-align: start;
+}
+
+.showcase-text {
+    position: absolute;
+    top: 20rem;
+    left: 7rem;
+}
+
+.showcase-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.showcase-content h4 {
+    margin-bottom: 2rem;
+}
+
+
+/* Main Section */
+.section-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* Meeting Section */
+.meeting-cards {
+    height: 60vh;
+}
+
+.meeting-card-content {
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+}
+
+.meeting-card-content h1 {
+    margin-bottom: 0.1rem;
+}
+
+.meeting-card h1 {
+    font-size: 0.75rem;
+}
+
+.meeting-card p {
+    font-size: 0.65rem;
+}
+
+.meeting-btn {
+    font-size: 0.5rem;
+    padding: 0.2rem 0.8rem;
+}
+
+.meeting-card-content :nth-child(3) {
+    margin-bottom: 0.2rem;
+}
+
+.meeting-card-content :nth-child(2) {
+    margin-bottom: 0.2rem;
+}
+
+
+/* Place of neeting */
+#place-of-meeting h1 {
+    font-size: 1.5rem;
+}
+
+.place-btn {
+    font-size: 0.5rem;
+}
+
+/* Overrated */
+#overrated {
+    height: 80vh;
+}
+
+.overrated-content h1 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.overrated-content p {
+    font-size: 0.75rem;
+    margin-bottom: 0.2rem;
+}
+
+.overrated-content :nth-child(3) {
+    margin-bottom: 0.2rem;
+}
+
+.connect-btn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.5rem;
+}
+
+.overrated-content {
+    position: absolute;
+    bottom: 1rem;
+}
+
+
+/* Agenda */
+.agenda-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.agenda-content h5 {
+    margin-bottom: 1.54rem;
+}
+
+
+/* News */
+#news {
+    display: flex;
+    flex-direction: column;
+}
+
+#news h1 {
+    margin-bottom: 3rem;
+}
+
+
+/* Footer */
+.forum-image {
+    width: 100px;
+    margin-left: 1.5rem;
+}
+
+
+footer p {
+    font-size: 0.75rem;
+}
